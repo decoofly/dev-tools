@@ -21,10 +21,10 @@ public class CheckRuleParse {
      * @param rules         校验规则
      */
     public void parseInterfaceCheckRule(String systemKey, String interfaceKey, String rules) {
-
         /**
          * {field1: $.path,feild2: $.rule}
          */
+
         String data = "";
         Map<String,Object> dataMap = parseSaveRule(data,rules);
 
@@ -38,7 +38,6 @@ public class CheckRuleParse {
         FieldModel model = new FieldModel();
         if (key.equals(model.getFieldChar())) {
             String checkRule = model.getCheckRule();
-
         }
 
     }
@@ -61,3 +60,4 @@ public class CheckRuleParse {
 
     }
 }
+

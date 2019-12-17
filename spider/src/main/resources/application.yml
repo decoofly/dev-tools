@@ -1,0 +1,10 @@
+server:
+  port: 9889
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: wx2019
+    url: jdbc:mysql://10.138.61.43:3306/vpc?characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2b8&zeroDateTimeBehavior=convertToNull
+    username: root
+
