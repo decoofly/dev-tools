@@ -1,0 +1,21 @@
+server:
+  port: 12222
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /test
+  cloud.stream:
+    bindings:
+      inputToRouterDeduct:
+        destination: test.ttl
+        group: apply
+    rabbit.bindings:
+      inputToRouterDeduct.consumer:
+        acknowledgeMode: manual
+        autoBindDlq: true
+        republishToDlq: true
+        bindingRoutingKey: apply

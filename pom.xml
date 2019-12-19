@@ -20,6 +20,8 @@
         <module>excle</module>
         <module>json</module>
         <module>spider</module>
+        <module>mq</module>
+        <module>mongo</module>
     </modules>
 
     <properties>

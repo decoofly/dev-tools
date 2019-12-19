@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/dev-tools.iml" filepath="$PROJECT_DIR$/.idea/dev-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/excle/excle.iml" filepath="$PROJECT_DIR$/excle/excle.iml" />
       <module fileurl="file://$PROJECT_DIR$/json/json.iml" filepath="$PROJECT_DIR$/json/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mongo/mongo.iml" filepath="$PROJECT_DIR$/mongo/mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq/mq.iml" filepath="$PROJECT_DIR$/mq/mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/spider/spider.iml" filepath="$PROJECT_DIR$/spider/spider.iml" />
     </modules>
   </component>

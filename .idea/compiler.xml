@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
         <module name="excle" />
-        <module name="spider" />
+        <module name="common" />
+        <module name="mongo" />
         <module name="json" />
+        <module name="mq" />
+        <module name="spider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +19,8 @@
       <module name="dev-tools" target="11" />
       <module name="excle" target="11" />
       <module name="json" target="11" />
+      <module name="mongo" target="11" />
+      <module name="mq" target="11" />
       <module name="spider" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +29,8 @@
       <module name="common" options="-parameters" />
       <module name="excle" options="-parameters" />
       <module name="json" options="-parameters" />
+      <module name="mongo" options="-parameters" />
+      <module name="mq" options="-parameters" />
       <module name="spider" options="-parameters" />
     </option>
   </component>

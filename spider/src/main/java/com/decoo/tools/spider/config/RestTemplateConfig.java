@@ -14,6 +14,7 @@ public class RestTemplateConfig {
 
     /**
      * restTemplate
+     *
      * @param builder build
      * @return RestTemplate
      */

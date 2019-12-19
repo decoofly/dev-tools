@@ -35,11 +35,9 @@ public class HttpService {
 
             Document document = Jsoup.connect(address).userAgent(userAgent).get();
 //            ResponseEntity<JSONObject> forEntity = restTemplate.getForEntity(address, JSONObject.class);
-
         }
 
     }
-
 
 
 }
